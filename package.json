@@ -1,0 +1,12 @@
+{
+  "name": "me-too-do",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/me-too-do",
+  "dependencies": {
+    "jquery": "3.3.1",
+    "bootstrap": "4.0.0",
+    "popper.js": "1.14.1",
+    "@stackblitz/sdk": "1.1.1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+
+  <title>me-too-do</title>  
+</head>
+<body>
+<form>
+	<div class="form-group">
+		<h1> Todo List </h1>
+		<div>
+			<button class="btn btn-primary" onclick="handlers.toggleAll()">
+                Toggle All
+      </button>
+		</div>
+		<div>
+			<input id="add" type="text">
+			<button class="btn btn-primary" onclick="handlers.addTodo()">
+                Add
+            </button>
+		</div>
+		<div>
+			<input id="position" type="number">
+			<input id="change" type="text">
+			<button class="btn btn-primary" onclick="handlers.changeTodo()">
+                Change
+            </button>
+		</div>
+
+		<div>
+			<input id="delPosition" type="number">
+			<button class="btn btn-danger" onclick="handlers.deleteTodo()">
+                Delete
+            </button>
+		</div>
+		<div>
+			<input id="togPosition" type="number">
+			<button class="btn btn-primary" onclick="handlers.toggleTodo()">
+                ToggleTodo
+            </button>
+		</div>
+
+		<ul>
+
+		</ul>
+	</div>
+</form>
+</body>
+</html>
